@@ -1,0 +1,37 @@
+{% extends "base.html" %} {% block title %} My blog {% endblock %} {%block
+content%}
+<header id="main-navigation">
+	<h1><a href="">Akash' blog</a></h1>
+	<nav>
+		<a href="">All posts</a>
+	</nav>
+</header>
+<section id="Welcome">
+	<header>
+		<img src="" alt="Akash - Author of this blog" />
+		<h2>Akash's blog</h2>
+	</header>
+</section>
+<section id="latest-posts">
+	<h2>My Latest Thoughts</h2>
+	<ul>
+		<li>
+			<article class="post">
+				<a href="">
+					<img src="" alt="Skating" />
+					<div class="post_content">
+						<h3>Skating and stuff</h3>
+						<p>Says random stuff about skating and stuff</p>
+					</div>
+				</a>
+			</article>
+		</li>
+	</ul>
+</section>
+
+<section id="about">
+	<h2>What I do</h2>
+	<p>I like to create pretty things with maths and programming</p>
+</section>
+
+{%endblock%}
